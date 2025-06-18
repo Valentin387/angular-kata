@@ -1,0 +1,5 @@
+<div class="survey-container">
+  <h2>Survey Redirect</h2>
+  <p *ngIf="isAndroid && !errorMessage">Redirecting to EncuestasApp...</p>
+  <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+</div>
